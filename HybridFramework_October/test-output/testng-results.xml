@@ -2,16 +2,20 @@
 <testng-results ignored="1" total="3" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-05T10:01:39 EST" name="Suite" finished-at="2022-12-05T10:01:44 EST" duration-ms="5394">
+  <suite started-at="2022-12-08T14:45:57 EST" name="Suite" finished-at="2022-12-08T14:46:04 EST" duration-ms="7485">
     <groups>
     </groups>
-    <test started-at="2022-12-05T10:01:39 EST" name="Test" finished-at="2022-12-05T10:01:44 EST" duration-ms="5394">
+    <test started-at="2022-12-08T14:45:57 EST" name="Test" finished-at="2022-12-08T14:46:04 EST" duration-ms="7485">
       <class name="com.gcr.scripts.TC2">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.gcr.scripts.TC2@209da20d]" started-at="2022-12-05T10:01:42 EST" name="beforeClass" finished-at="2022-12-05T10:01:43 EST" duration-ms="791" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.gcr.scripts.TC2@209da20d]" started-at="2022-12-08T14:46:01 EST" name="beforeClass" finished-at="2022-12-08T14:46:02 EST" duration-ms="751" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.gcr.scripts.TC2@209da20d]" started-at="2022-12-05T10:01:43 EST" name="methodName" finished-at="2022-12-05T10:01:43 EST" duration-ms="0" status="PASS">
+        <test-method signature="Login_LogoutTestCaseExcel()[pri:0, instance:com.gcr.scripts.TC2@209da20d]" started-at="2022-12-08T14:46:02 EST" name="Login_LogoutTestCaseExcel" finished-at="2022-12-08T14:46:04 EST" duration-ms="1883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_LogoutTestCaseExcel -->
+        <test-method is-config="true" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.gcr.scripts.TC2@209da20d]" started-at="2022-12-08T14:46:02 EST" name="methodName" finished-at="2022-12-08T14:46:02 EST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,25 +26,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodName -->
-        <test-method signature="Login_LogoutTestCaseExcel()[pri:0, instance:com.gcr.scripts.TC2@209da20d]" started-at="2022-12-05T10:01:43 EST" name="Login_LogoutTestCaseExcel" finished-at="2022-12-05T10:01:44 EST" duration-ms="1382" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login_LogoutTestCaseExcel -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.gcr.scripts.TC2@209da20d]" started-at="2022-12-05T10:01:44 EST" name="afterClass" finished-at="2022-12-05T10:01:44 EST" duration-ms="186" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.gcr.scripts.TC2@209da20d]" started-at="2022-12-08T14:46:04 EST" name="afterClass" finished-at="2022-12-08T14:46:04 EST" duration-ms="138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.gcr.scripts.TC2 -->
       <class name="com.gcr.scripts.TC1">
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:com.gcr.scripts.TC1@5ba3f27a]" started-at="2022-12-05T10:01:39 EST" name="generateReport" finished-at="2022-12-05T10:01:39 EST" duration-ms="254" status="PASS">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:com.gcr.scripts.TC1@5ba3f27a]" started-at="2022-12-08T14:45:57 EST" name="generateReport" finished-at="2022-12-08T14:45:57 EST" duration-ms="210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.gcr.scripts.TC1@5ba3f27a]" started-at="2022-12-05T10:01:39 EST" name="beforeClass" finished-at="2022-12-05T10:01:41 EST" duration-ms="1439" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.gcr.scripts.TC1@5ba3f27a]" started-at="2022-12-08T14:45:57 EST" name="beforeClass" finished-at="2022-12-08T14:46:00 EST" duration-ms="2655" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.gcr.scripts.TC1@5ba3f27a]" started-at="2022-12-05T10:01:41 EST" name="methodName" finished-at="2022-12-05T10:01:41 EST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.gcr.scripts.TC1@5ba3f27a]" started-at="2022-12-08T14:46:00 EST" name="methodName" finished-at="2022-12-08T14:46:00 EST" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,7 +51,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodName -->
-        <test-method signature="Login_LogoutTestCase()[pri:0, instance:com.gcr.scripts.TC1@5ba3f27a]" started-at="2022-12-05T10:01:41 EST" name="Login_LogoutTestCase" finished-at="2022-12-05T10:01:41 EST" duration-ms="695" status="FAIL">
+        <test-method signature="Login_LogoutTestCase()[pri:0, instance:com.gcr.scripts.TC1@5ba3f27a]" started-at="2022-12-08T14:46:00 EST" name="Login_LogoutTestCase" finished-at="2022-12-08T14:46:00 EST" duration-ms="519" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Swag Labs 123] but found [Swag Labs]]]>
@@ -99,7 +99,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_LogoutTestCase -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.gcr.scripts.TC1@5ba3f27a]" started-at="2022-12-05T10:01:41 EST" name="afterClass" finished-at="2022-12-05T10:01:42 EST" duration-ms="590" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.gcr.scripts.TC1@5ba3f27a]" started-at="2022-12-08T14:46:00 EST" name="afterClass" finished-at="2022-12-08T14:46:01 EST" duration-ms="1291" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
