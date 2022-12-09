@@ -9,9 +9,10 @@ import com.gcr.reuse.CommonFunctions;
 
 public class TC3 extends StartBrowser{
   @Test
-  public void OnlyLogin_Logout() throws Exception {
+  public void OnlyLoginLogout() throws Exception {
 	  CommonFunctions cfs = new CommonFunctions();
 	  cfs.login();
+	  //This is a change
 	  cfs.logout();
   }
 }

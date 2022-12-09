@@ -33,6 +33,7 @@ public class TC2 extends StartBrowser{
 			StartBrowser.childTest.fail("Title verification Not Successful");
 			throw e;
 		}
+		//this is a sample line
 		cfs.logout();
 	}
 }
