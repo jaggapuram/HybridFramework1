@@ -10,5 +10,7 @@ public class TC4 extends StartBrowser{
   public void LoginLogout_WebShop() throws Exception{
 	  BusinessFunctions bfs = new BusinessFunctions();
 	  bfs.loginWebShop();
+	  //Thread.sleep(2000);
+	  bfs.logoutWebShop();
   }
 }
